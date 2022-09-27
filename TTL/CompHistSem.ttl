@@ -1,0 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix powla: <http://purl.org/powla/powla.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://lila-erc.eu/data/corpora/CompHistSem/id/corpus> a powla:Corpus, owl:NamedIndividual;
+  dc:title "Computational Historical Semantics Corpus";
+  <http://purl.org/dc/terms/contributor> "Flavio Massimiliano Cecchini, Giovanni Moretti, Marco Passarotti, Giulia Pedonese";
+  <http://purl.org/dc/terms/creator> "Tim Geelhar, Bernhard Jussen, Alexander Mehler";
+  <http://purl.org/dc/terms/description> "Computational Historical Semantics is a cooperative project involving the universities of Bielefeld, Frankfurt, Regensburg and Tübingen, coordinated at Goethe-University Frankfurt by an interdisciplinary team led by Bernhard Jussen and Alexander Mehler, and funded by the German Federal Ministry for Education and Research. The text database of the project gathers more than 4000 texts spanning from II to XV Century A.D. The section of the database linked to LiLa comprises 5 texts for a total approximately 1 million words.";
+  <http://purl.org/dc/terms/license> <http://www.wikidata.org/entity/Q42553662>;
+  <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q89883181>;
+  rdfs:seeAlso <https://lta.bbaw.de> ;
+  rdfs:seeAlso <https://www.comphistsem.org/home.html> 
+ 
